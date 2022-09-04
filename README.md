@@ -12,3 +12,5 @@ Back-end:
 - Clone utilizando: "git clone (chave ssh do projeto)";
 - No terminal use o comando npm install;
 - Abra o arquivo index.html;
+
+OS ARQUIVOS PRESENTES NA PASTA SERVICES FORAM DESENVOLVIDOS PELA TRYBE

@@ -1,0 +1,73 @@
+* {
+  text-align: center;
+}
+
+.trybe-tunes{
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-top: 10vh;
+  margin-bottom: 2vh;
+}
+
+.login-title {
+  font-weight: 400;
+  margin-top: 10vh;
+  margin-bottom: 2vh;
+}
+
+.forget-text {
+  margin-bottom: 4vh;
+}
+
+.forget-text a {
+  text-decoration: none;
+  color: rgba(29, 29, 255, 0.904);
+}
+
+.forget-text a:hover{
+  text-decoration: underline;
+}
+
+.name-input, .name-input:focus {
+  border: none;
+  border-bottom: solid 1px rgb(219, 219, 219);
+  color: black;
+  width: 28rem;
+  padding-bottom: 7px;
+  margin-bottom: 2vh;
+  outline: none;
+  text-align: start;
+  text-indent: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 100;
+}
+
+.name-input::placeholder { 
+  color: rgb(37, 37, 37);
+  opacity: 1; 
+  font-size: 1.1rem;
+  text-align: start;
+  text-indent: 0.5rem;
+}
+
+.lembrar-text {
+  display: flex;
+  justify-content: space-between;
+  width: 27rem;
+  margin: 0 auto;
+  margin-bottom: 4vh;
+}
+
+.login-button {
+  padding: 0.9rem 4.5rem;
+  background-color: white;
+  border-radius: 25px;
+  color: blue;
+  border: 2px solid blue;
+}
+
+.login-button:hover {
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+}

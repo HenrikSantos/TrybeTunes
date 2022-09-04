@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.userName {
+  font-size: 30px;
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  line-height: 80px
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: blue;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

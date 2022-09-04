@@ -1,0 +1,50 @@
+.profile-edit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3vw 30vw;
+}
+
+.profile-edit label {
+  text-align: start;
+  font-size: 1.3rem;
+}
+
+.profile-input {
+  width: 100%;
+}
+
+.profile-input, .profile-input:focus {
+  border: none;
+  border-bottom: solid 1px rgb(219, 219, 219);
+  color: rgba(0, 0, 0, 0.781);
+  padding-bottom: 7px;
+  margin-bottom: 2vh;
+  outline: none;
+  text-align: start;
+  text-indent: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 100;
+}
+
+.profile-input::placeholder { 
+  color: rgb(37, 37, 37);
+  opacity: 1; 
+  font-size: 1.1rem;
+  text-align: start;
+  text-indent: 0.5rem;
+}
+
+.submit-edit-btn {
+  padding: 0.9rem 4.5rem;
+  background-color: white;
+  border-radius: 5px;
+  color: blue;
+  border: 2px solid blue;
+}
+
+.submit-edit-btn:hover {
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+}

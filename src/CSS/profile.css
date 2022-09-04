@@ -1,0 +1,22 @@
+.profile-infos {
+  width: 40vw;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: solid 1px rgba(0, 0, 0, 0.123);
+  padding: 20px;
+  border-radius: 7px;
+}
+
+.profile-infos hr {
+  margin: 10px 0;
+}
+
+.profile-infos img {
+  border-radius: 100px;
+  margin: 20px auto;
+}
+
+.profile-infos h1, .profile-infos p {
+  text-align: start !important;
+  text-indent: 1rem;
+}

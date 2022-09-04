@@ -1,0 +1,47 @@
+.album-content {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  gap: 4vw;
+  align-items: flex-start;
+}
+
+.album-info {
+  width: 18vw;
+  height: 24vw;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.album-info h1, .album-info p {
+  text-align: start;
+}
+
+.album-info img {
+  width: auto;
+
+  margin-top: 10px;
+}
+
+.music-content {
+  width: 34vw;
+}
+
+.music {
+  display: flex;
+  padding: 20px;
+  border-top: solid 1px rgba(128, 128, 128, 0.432);
+  align-items: center;
+  gap: 20px;
+}
+
+.music-name {
+  width: 55%;
+}
+
+audio {
+  height: 30px;
+  background-color: white;
+}
